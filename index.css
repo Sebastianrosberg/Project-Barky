@@ -1,7 +1,21 @@
 body {
     margin: 0;
+    font-family: 'inter';
 }
 
+.box {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(material/Inter.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -34,13 +48,44 @@ nav a {
     text-decoration: none;
     color: black;
     margin: 10px;
+    padding: 5px 9px 5px 9px;
 
 }
 
 #right-menu {
-    margin-left: 999px;
+    margin-left: 875px;
 }
 
 /* Header */
 
 /* Main */
+
+main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    justify-content: space-between;
+
+}
+
+.text-1 {
+    max-width: 50%;
+
+}
+
+.text-1 h1 {
+    font-weight: 650;
+    font-size: 45px;
+}
+
+
+
+.tres {
+    max-width: 50%;
+}
