@@ -40,8 +40,12 @@ body {
 .menu {
     display: flex;
     gap: 10px;
-    justify-content: space-around;
+    <<<<<<< HEAD justify-content: space-around;
     align-items: center;
+    =======justify-content: center;
+    align-items: center;
+    margin-left: -900px;
+    >>>>>>>7577e820454f61fa499b97c9632c474e04bea223
 }
 
 .menu-item {
@@ -116,7 +120,8 @@ body {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-left: auto;
+    <<<<<<< HEAD margin-left: auto;
+    =======>>>>>>>7577e820454f61fa499b97c9632c474e04bea223
 }
 
 .right-item {
@@ -149,8 +154,9 @@ main {
 .section-1 {
     display: flex;
     align-items: center;
-    margin-top: 60px;
-    justify-content: space-between;
+    <<<<<<< HEAD margin-top: 60px;
+    =======margin-top: 85px;
+    >>>>>>>7577e820454f61fa499b97c9632c474e04bea223 justify-content: space-between;
 
 }
 
@@ -168,6 +174,7 @@ main {
 
 .tres {
     max-width: 50%;
+    <<<<<<< HEAD
 }
 
 .section-2 {
@@ -183,4 +190,5 @@ main {
 .section-2 img {
     height: 20px;
     margin: 30px;
+    =======>>>>>>>7577e820454f61fa499b97c9632c474e04bea223
 }
