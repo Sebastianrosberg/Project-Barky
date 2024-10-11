@@ -40,12 +40,8 @@ body {
 .menu {
     display: flex;
     gap: 10px;
-    <<<<<<< HEAD justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
-    =======justify-content: center;
-    align-items: center;
-    margin-left: -900px;
-    >>>>>>>7577e820454f61fa499b97c9632c474e04bea223
 }
 
 .menu-item {
@@ -120,8 +116,7 @@ body {
     display: flex;
     gap: 20px;
     align-items: center;
-    <<<<<<< HEAD margin-left: auto;
-    =======>>>>>>>7577e820454f61fa499b97c9632c474e04bea223
+    margin-left: auto;
 }
 
 .right-item {
@@ -151,12 +146,11 @@ main {
     margin-right: auto;
 }
 
-.section-1 {
+#section-1 {
     display: flex;
     align-items: center;
-    <<<<<<< HEAD margin-top: 60px;
-    =======margin-top: 85px;
-    >>>>>>>7577e820454f61fa499b97c9632c474e04bea223 justify-content: space-between;
+    margin-top: 60px;
+    justify-content: space-between;
 
 }
 
@@ -174,10 +168,9 @@ main {
 
 .tres {
     max-width: 50%;
-    <<<<<<< HEAD
 }
 
-.section-2 {
+#section-2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -187,8 +180,37 @@ main {
     border-top: 1px solid #f4f4f4;
 }
 
-.section-2 img {
+#section-2 img {
     height: 20px;
     margin: 30px;
-    =======>>>>>>>7577e820454f61fa499b97c9632c474e04bea223
+}
+
+#section-3 {}
+
+#section-3 .pragraph {
+    width: 50%;
+}
+
+#section-3 .hund-bild {
+    width: 100%;
+}
+
+#section-3 h3 {
+    color: gray;
+    text-align: center;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text img {
+    width: 50px;
+
+}
+
+.logo-text p {
+    margin: 0;
 }
