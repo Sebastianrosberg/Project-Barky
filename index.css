@@ -279,3 +279,9 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
+#section-7 {
+    text-align: center;
+}
+
+/* Main */
