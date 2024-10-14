@@ -216,9 +216,10 @@ main {
 }
 
 #section-4 {
-    max-width: 100%;
+    border-bottom: 1px solid #f4f4f4;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .text-top {
@@ -230,8 +231,8 @@ main {
     justify-content: space-between;
     align-items: center;
 
-    background-color: grey;
     padding: 20px;
+    border-bottom: 1px solid black;
 }
 
 .grey-text img {
@@ -241,9 +242,21 @@ main {
 
 .grey-text-box {
     margin-top: 20px;
+    padding: 20px;
+    background-color: grey;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grey-text p {
     margin: 0;
-    border-bottom: 1px solid black;
+}
+
+#section-5 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
 }
