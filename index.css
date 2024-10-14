@@ -1,13 +1,7 @@
 body {
     margin: 0;
     font-family: 'inter';
-}
 
-.box {
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 @font-face {
@@ -17,6 +11,9 @@ body {
     font-style: normal;
 }
 
+.grey-paragraph {
+    color: #7f7f7f;
+}
 
 
 /* Header */
@@ -125,7 +122,7 @@ body {
 }
 
 .box {
-    background-color: black;
+    background-color: #050505;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -163,12 +160,18 @@ main {
 .text-1 h1 {
     font-weight: 650;
     font-size: 45px;
+    margin-bottom: 0;
+
+}
+
+.text-1 p {
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 
-
 .tres {
-    max-width: 50%;
+    width: 100%;
 }
 
 #section-2 {
@@ -176,7 +179,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1px;
-    margin: 70px 0;
+    margin: 90px 0;
     border-bottom: 1px solid #f4f4f4;
     border-top: 1px solid #f4f4f4;
 }
@@ -184,27 +187,52 @@ main {
 #section-2 img {
     height: 20px;
     margin: 30px;
+
 }
 
-#section-3 {}
+#section-3 {
+    margin: 75px 0;
+    border-bottom: solid 1px #e5e5e5;
+}
 
-#section-3 .pragraph {
-    width: 50%;
+#section-3 .paragraph {
+    width: 49%;
+    margin: 38px 0;
+}
+
+.paragraph p {
+    margin-top: 7px;
 }
 
 #section-3 .hund-bild {
     width: 100%;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+#section-3 h2 {
+    font-size: 36px;
+    font-weight: 650;
+    color: #050505;
+    margin-bottom: 0;
 }
 
 #section-3 h3 {
     color: gray;
     text-align: center;
+    font-size: 36px;
+    font-weight: 650;
 }
 
 .logo-text {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+
+.work-title {
+    color: gray;
 }
 
 .logo-text img {
@@ -233,7 +261,7 @@ main {
     align-items: center;
 
     padding: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .grey-text img {
@@ -244,14 +272,14 @@ main {
 .grey-text-box {
     margin-top: 20px;
     padding: 20px;
-    background-color: grey;
+    background-color: #f4f4f4;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 90px auto;
 }
 
 .grey-text p {
     margin: 0;
+    color: #666666;
 }
 
 #section-5 {
@@ -266,6 +294,8 @@ main {
 
 #section-6 h1 {
     text-align: center;
+    background-color: #050505, #121212, #353535, #666666,
+        #7f7f7f, #999999, #e5e5e5, #f4f4f4 och #087fe7;
 }
 
 .badges-box {
