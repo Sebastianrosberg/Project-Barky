@@ -27,6 +27,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #f4f4f4;
+    position: fixed;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -285,3 +286,30 @@ main {
 }
 
 /* Main */
+
+/* Footer */
+
+footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    height: 30px;
+}
+
+.logo-row img {
+    height: 20px;
+}
+
+.information-links {
+    display: flex;
+}
+
+/* Footer */
