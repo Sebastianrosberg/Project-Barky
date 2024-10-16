@@ -130,6 +130,11 @@ body {
     margin-left: auto;
 }
 
+.hamburger {
+    width: 20px;
+    display: none;
+}
+
 .right-item {
     cursor: pointer;
 }
@@ -427,4 +432,18 @@ footer {
 
 /* Footer */
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+    /* Header */
+
+    .menu-item {
+        display: none;
+    }
+
+    .right-item {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
