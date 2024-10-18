@@ -34,8 +34,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid #f4f4f4;
+    padding: 5px 20px;
+    border-bottom: 1px solid #e5e5e5;
     position: fixed;
     top: 0;
     right: 0;
@@ -128,6 +128,16 @@ body {
     gap: 21px;
     align-items: center;
     margin-left: auto;
+}
+
+.right-item {
+    padding: 10px 15px;
+}
+
+.right-item:hover {
+    background-color: #f4f4f4;
+    margin: 3px;
+    border-radius: 3px;
 }
 
 .hamburger {
@@ -319,6 +329,10 @@ main {
     font-size: 15px;
 }
 
+#no-border {
+    border-style: none;
+}
+
 #section-5 {
     text-align: center;
     margin-top: 70px;
@@ -327,10 +341,30 @@ main {
 
 .p-links {
     text-decoration: underline;
+    margin: 0;
+}
+
+.p-links:hover {
+    cursor: pointer;
+    color: rgb(51, 51, 169);
+}
+
+.border-box {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
 }
 
 .container {
     display: flex;
+    gap: 10px;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.under-rubrik {
+    margin: 0;
 }
 
 #section-6 h1 {
@@ -351,11 +385,16 @@ main {
 }
 
 .procent-border {
-    border-right: #7f7f7f 1px solid;
+    border-right: #e5e5e5 1px solid;
 }
 
 .badges-box {
     display: flex;
+    align-items: center;
+}
+
+.badges-box h3 {
+    margin-bottom: 15px;
 }
 
 .badges-box img {
@@ -462,12 +501,22 @@ footer {
         display: block;
     }
 
+    .navbar {
+        position: static;
+        border-style: none;
+    }
+
     /* Header */
 
     /* Main */
 
     body {
         max-width: 600px;
+    }
+
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #section-1 {
@@ -485,7 +534,10 @@ footer {
         align-items: center;
         margin-left: 20px;
         margin-right: 20px;
+    }
 
+    #section-3 h3 {
+        font-size: 26px;
     }
 
     #section-3 .paragraph {
@@ -504,13 +556,22 @@ footer {
         margin-right: 20px;
     }
 
+    .border-box {
+        border-style: none;
+    }
+
     .badges-box {
         flex-direction: column;
+        align-items: center;
     }
 
     .badges-text {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    #section-6 p {
+        padding-right: 0;
     }
 
     .statistic {
@@ -519,6 +580,15 @@ footer {
         text-align: center;
         gap: 50px;
         justify-content: center;
+    }
+
+    .statistic h1 {
+        padding-right: 0;
+    }
+
+
+    .procent-border {
+        border-style: none;
     }
 
 
@@ -531,11 +601,11 @@ footer {
 
     .information-links {
         flex-wrap: wrap;
-        width: 55%;
+        width: 60%;
     }
 
     .footer-text {
-        margin-top: 50px;
+        margin-top: 0;
     }
 
     .logo-column {
